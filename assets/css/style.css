@@ -1,0 +1,83 @@
+section {
+    padding-top: 5rem;
+}
+
+#heroSection,
+#aboutSection,
+#contactSection {
+    padding: 4rem 0 4rem 0;
+}
+
+.h-100vh {
+    height: 100vh !important;
+}
+
+.bg-doodle {
+    background-image: url('../img/recipe-doodle.png');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.bg-hero {
+    background: linear-gradient(#0d6efd 20%, #0dcaf0);
+}
+
+.text-overflow-clamp {
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+    -webkit-line-clamp: 1;
+}
+
+.img-about {
+    height: 350px;
+}
+
+.img-detail {
+    height: 400px;
+}
+
+
+.img-preview {
+    transition: filter 0.3s ease-in-out;
+    display: block;
+    margin: auto;
+}
+
+.img-preview:hover {
+    filter: blur(2px);
+    cursor: pointer;
+}
+
+.rounded-custom {
+    border-radius: 4rem 1rem 4rem 1rem;
+}
+
+@media (max-width: 991px) {
+    .img-about {
+        height: 300px;
+    }
+}
+
+@media (max-width: 767px) {
+    .order-items-1 {
+        order: 2;
+    }
+
+    .order-items-2 {
+        order: 1;
+    }
+
+    .img-section {
+        margin-bottom: 2rem;
+    }
+
+    .img-detail {
+        height: 300px;
+    }
+
+    .img-about {
+        height: 400px;
+    }
+}
